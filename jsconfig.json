@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src/app", // Set the base URL to the app directory
+    "paths": {
+      "@/*": ["./*"] // Adjust the path alias accordingly
+    }
+  }
+}

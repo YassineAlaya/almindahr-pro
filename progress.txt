@@ -1,0 +1,45 @@
+project-root/
+├── src/
+│   ├── app/
+│   │   ├── page.js                     // Home page (Accueil)
+│   │   ├── login/                      // Login page
+│   │   │   └── page.js
+│   │   ├── register/                   // Register page
+│   │   │   └── page.js
+│   │   ├── dashboard/                  // Dashboard page for logged-in users
+│   │   │   ├── page.js
+│   │   │   └── profile.js              // User profile under dashboard (if needed)
+│   │   ├── services/                   // Services page
+│   │   │   └── page.js
+│   │   ├── professionnels/             // Professionnels page
+│   │   │   └── page.js
+│   │   ├── contact/                    // Contact page
+│   │   │   └── page.js
+│   │   ├── search/                     // Search page
+│   │   │   └── page.js
+│   │   ├── listings/                   // Listings (dynamic routes for individual listings)
+│   │   │   ├── [listingId]/            // Dynamic route for each listing (e.g., /listings/123)
+│   │   │   │   └── page.js
+│   │   ├── blog/                       // Blog page
+│   │   │   ├── page.js
+│   │   │   ├── [slug]/                 // Dynamic route for each blog post (e.g., /blog/my-post)
+│   │   │   │   └── page.js
+│   │   ├── components/                 // Common components used across the app
+│   │   │   ├── Navbar.js               // Navbar component
+│   │   │   ├── Hero.js                 // Hero component
+│   │   │   ├── FeaturedProfessionals.js// Featured professionals component
+│   │   │   ├── Footer.js               // Footer component
+│   │   │   └── ...                     // Other reusable components
+│   │   └── layout.js                   // Global layout for the app (shared across all pages)
+│   ├── utils/                          // Utility functions and Firebase config
+│   │   ├── firebase.js                 // Firebase configuration
+│   │   ├── helpers.js                  // Other helper functions
+│   │   └── ...
+│   ├── styles/                         // Global and custom CSS styles
+│   │   └── globals.css                 // Global styles (for Chakra or any additional CSS)
+│   └── ...
+├── public/                             // Public assets (images, icons, etc.)
+├── .env.local                          // Environment variables (Firebase credentials, etc.)
+├── next.config.js                      // Next.js configuration
+├── package.json                        // Dependencies and scripts
+└── ...

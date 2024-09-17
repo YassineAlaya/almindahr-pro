@@ -1,0 +1,76 @@
+UI/UX Guidelines for Almindhar PRO
+1. Project Overview:
+Almindhar PRO connects users with professionals (architects, electricians, plumbers, etc.) across Tunisia. The design should be reliable, trustworthy, and professional, ensuring a user-friendly, intuitive, and fast experience.
+
+2. Target Audience:
+Homeowners: Adults aged 25–60 needing home improvement services.
+Professionals: Service providers in home improvement, architecture, plumbing, etc.
+3. Design Goals:
+Professional yet approachable: A clean and modern interface with a focus on trust and simplicity.
+Minimalistic: Avoid clutter, focus on core features such as search, service listings, and professional profiles.
+Mobile-first: Prioritize a design that scales seamlessly across devices.
+Futuristic yet subtle: Modern principles without excessive flashiness.
+4. Design Elements
+Color Palette:
+Primary Color:
+Cool Blue (#003366): Represents trust, professionalism, and reliability.
+Secondary Colors:
+Sky Blue (#6699CC): Accent color for links, interactive elements, and icons to give a modern feel.
+Mint Green (#66CC99): Used for buttons, CTAs (Call To Actions), and success messages.
+Neutral Colors:
+Light Gray (#F0F4F8): Soft neutral background color, allowing other colors to pop.
+Slate Gray (#4A4A4A): Used for text and icons for better readability.
+White (#FFFFFF): Predominantly for background and negative space, improving legibility.
+Dark Charcoal (#333333): Strong header text and main callout color to create contrast.
+Light Blue Gray (#E5E5E5): Borders and subtle UI elements.
+5. Typography:
+Primary Font: "Poppins" or "Nunito Sans" for modern and clean aesthetics.
+Fallback: System sans-serif fonts for performance in low-bandwidth scenarios.
+Font Weights:
+Headings: Bold (700).
+Subheadings: Semi-Bold (600).
+Body Text: Regular (400).
+Buttons: Medium (500).
+6. Component-Level Guidelines:
+Buttons:
+Background Color: Default to Mint Green (#66CC99), hover state to Sky Blue (#6699CC).
+Size: Large (lg) for primary CTAs.
+Padding: Ensure sufficient padding (px={8}) to feel substantial and clickable.
+Shape: Soft rounded edges (borderRadius="full" or 8px) for modern feel. Use borderRadius="0" for a sharp, futuristic look.
+Hover State: Subtle color transition to a slightly darker tone or switch between Mint Green and Sky Blue for primary actions.
+Box Shadow: Soft shadow for elevation on hover (boxShadow="md") to create subtle depth.
+Text Color: White on mint/sky buttons; use strong contrast for visibility.
+Input Fields:
+Background: White for readability.
+Border: Soft and minimalistic (1px solid Light Blue Gray) for inputs. No harsh border unless focused.
+Focus State: Clear focus (focusBorderColor="skyBlue") with subtle glow for clarity.
+Icons: Use light gray icons (e.g., FaSearchLocation for locations) inside inputs to improve UX.
+Placeholder Text: Use Slate Gray for placeholder text to avoid sharp contrast.
+Box Shadow:
+Default State: Soft, subtle shadow for elements that require emphasis without overbearing the UI (boxShadow="lg").
+Button and Card Hover State: Increase shadow depth on hover to enhance interaction feedback (boxShadow="xl").
+Search Bar:
+Container: Unified input and button styles in a single HStack for coherence.
+Border Radius: Rounded corners (borderRadius="full") for a modern feel. Inputs and buttons should blend together seamlessly.
+Padding & Spacing: Ensure elements have enough internal padding for easy touch interaction on mobile.
+Box Shadow: Add a soft shadow (boxShadow="lg") for input boxes and buttons to make them feel lifted from the page.
+Icon Integration: Inputs should have icons for better usability (e.g., a magnifying glass for search, a user icon for profession input).
+7. Interactive Elements:
+Buttons & Links: Clear hover states, including:
+Color shifts (e.g., Mint Green to Sky Blue on hover).
+Soft box shadows on hover to signal clickability.
+Input Fields: Ensure clear focus states with easy-to-read placeholder text.
+Use subtle transitions when users interact with form elements.
+8. Visual Hierarchy & Spacing:
+Padding & Margins: Consistent spacing between sections. Generous use of padding ensures breathing room and avoids crowding.
+Headings: Large headings with strong contrast. Align to the left for desktops and centered for mobile to ensure consistency and readability.
+White Space: Generous use of white space between elements to make the design feel light and easy to navigate.
+9. Mobile Optimization:
+Touch-friendly: Ensure all buttons and interactive elements are large enough for touch interaction (min-height: 44px).
+Spacing: Add enough padding between sections to avoid accidental clicks.
+Legible Text: Use responsive font sizes to ensure readability across all devices.
+Icons: Make sure icons scale appropriately, especially in input fields.
+10. Motion & Transitions:
+Hover Animations: Subtle animations like color shifts and box shadows on hover to guide users intuitively.
+Button Transitions: Smooth transitions for buttons, particularly during hover (e.g., transition="all 0.3s ease-in-out").
+No Flashy Animations: Avoid heavy motion that could distract from the core functionality; keep the focus on clarity and speed.

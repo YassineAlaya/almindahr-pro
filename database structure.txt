@@ -1,0 +1,26 @@
+professionals: Stores information about professionals.
+
+Fields:
+name: string (e.g., "John Doe")
+category: string (e.g., "Plumber")
+location: string (e.g., "Tunis")
+imageUrl: string (URL to the professional's image)
+bio: string (short biography)
+contact: map (can contain fields like email, phone, website)
+reviews: array of maps (each map represents a review)
+... other fields as needed
+users: Stores information about users.
+
+Fields:
+name: string
+email: string
+phoneNumber: string
+... other fields as needed
+blogPosts: Stores blog posts.
+
+Fields:
+title: string
+content: string
+author: string (or reference to user document)
+publishedAt: timestamp
+... other fields as needed
